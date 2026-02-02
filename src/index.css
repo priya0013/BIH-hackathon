@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* Custom small helpers */
+.container { @apply mx-auto px-4 max-w-5xl }
+.muted { @apply text-gray-500 }
+.btn { @apply bg-teal-600 text-white px-3 py-2 rounded-md }
+.outline { @apply border border-teal-600 text-teal-600 px-3 py-2 rounded-md }
+.book-card-img { @apply w-full h-40 object-cover rounded-md }
+.card { @apply bg-white p-4 rounded-md shadow-sm }
+.hero { @apply bg-white p-8 rounded-md shadow-sm }
+.footer { @apply text-center text-gray-500 py-6 }
+
+/* Copilot: Tailwind setup for further UI tweaks */

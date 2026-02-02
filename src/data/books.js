@@ -1,0 +1,91 @@
+// Mock book data for Book Mates
+const books = [
+  {
+    id: '1',
+    title: 'Introduction to Algorithms',
+    authors: ['Thomas H. Cormen','Charles E. Leiserson','Ronald L. Rivest','Clifford Stein'],
+    isbn10: '0262033844',
+    isbn13: '9780262033848',
+    price: 350,
+    oldPrice: 1200,
+    condition: 'Used',
+    category: 'Computer Science',
+    college: 'IIT Delhi',
+    sellerName: 'Alice Gupta',
+    sellerEmail: 'alice@campus.edu',
+    rating: 4.5,
+    postedDate: '2026-01-20',
+    image: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=60'
+  },
+  {
+    id: '2',
+    title: 'Organic Chemistry',
+    authors: ['Paula Y. Bruice'],
+    isbn10: '0134042285',
+    isbn13: '9780134042282',
+    price: 800,
+    oldPrice: 1500,
+    condition: 'Good',
+    category: 'Chemistry',
+    college: 'IIT Bombay',
+    sellerName: 'Ravi Kumar',
+    sellerEmail: 'ravi@campus.edu',
+    rating: 4.0,
+    postedDate: '2026-01-10',
+    image: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&q=60'
+  },
+  {
+    id: '3',
+    title: 'Linear Algebra Done Right',
+    authors: ['Sheldon Axler'],
+    isbn10: '3319110799',
+    isbn13: '9783319110790',
+    price: 400,
+    oldPrice: 900,
+    condition: 'Like New',
+    category: 'Mathematics',
+    college: 'IISc Bangalore',
+    sellerName: 'Priya Nair',
+    sellerEmail: 'priya@campus.edu',
+    rating: 4.7,
+    postedDate: '2026-01-25',
+    image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=60'
+  },
+  {
+    id: '4',
+    title: 'Modern Physics',
+    authors: ['Kenneth S. Krane'],
+    isbn10: '0471385266',
+    isbn13: '9780471385260',
+    price: 250,
+    oldPrice: 700,
+    condition: 'Used',
+    category: 'Physics',
+    college: 'IIT Madras',
+    sellerName: 'Karthik Rao',
+    sellerEmail: 'karthik@campus.edu',
+    rating: 3.9,
+    postedDate: '2026-01-05',
+    image: 'https://images.unsplash.com/photo-1496104679561-38d2f3e6a1c8?w=800&q=60'
+  },
+  {
+    id: '5',
+    title: 'Principles of Economics',
+    authors: ['N. Gregory Mankiw'],
+    isbn10: '128516587X',
+    isbn13: '9781285165875',
+    price: 300,
+    oldPrice: 800,
+    condition: 'Good',
+    category: 'Economics',
+    college: 'JNU',
+    sellerName: 'Sneha Rao',
+    sellerEmail: 'sneha@campus.edu',
+    rating: 4.2,
+    postedDate: '2026-01-18',
+    image: 'https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=800&q=60'
+  }
+]
+
+export default books
+
